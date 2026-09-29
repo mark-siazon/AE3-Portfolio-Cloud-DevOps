@@ -2,4 +2,5 @@
 User-agent: *
 Allow: /
 
+# Machine-readable index for assistants: /llms.txt and /llms-full.txt
 Sitemap: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/sitemap.xml

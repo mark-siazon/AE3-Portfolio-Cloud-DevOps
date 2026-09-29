@@ -50,7 +50,9 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 ### 🎯 SEO & Meta
 - **Open Graph Tags** - Social media preview cards
 - **Twitter Cards** - Optimized sharing on Twitter/X
-- **Sitemap** - Auto-generated XML sitemap
+- **JSON-LD** - WebSite, CollectionPage, FAQPage (see `src/seo/`)
+- **llms.txt / llms-full.txt** - Assistant-readable index (`npm run seo:llms` to regenerate)
+- **Sitemap** - XML sitemap in `public/sitemap.xml`
 - **Robots.txt** - Proper crawler directives
 - **Manifest.json** - PWA-ready configuration
 - **Copyright Protection** - Meta tags and footer notice
@@ -83,7 +85,7 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 ## 📁 Project Structure
 
 ```
-acads-Portfolio/
+AE3-Portfolio-Cloud-DevOps/
 ├── public/                      # Static assets
 │   ├── card-img/               # Project card images (optimized)
 │   ├── files/                  # PDF documents
@@ -125,15 +127,15 @@ acads-Portfolio/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js** 18+ and npm
+- **Node.js** 24+ and npm (matches GitHub Actions)
 - Git
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mark-siazon/acads-Elec3-Portfolio.git
-   cd acads-Elec3-Portfolio
+   git clone https://github.com/mark-siazon/AE3-Portfolio-Cloud-DevOps.git
+   cd AE3-Portfolio-Cloud-DevOps
    ```
 
 2. **Install dependencies**
@@ -153,8 +155,8 @@ acads-Portfolio/
 # Development server with HMR
 npm run dev
 
-# Build for production
-npm run build
+# Build for GitHub Pages (CI uses this)
+npm run build:pages
 
 # Preview production build
 npm run preview
@@ -230,22 +232,21 @@ All interactive elements have proper `aria-label` attributes:
 ### GitHub Pages
 The site is automatically deployed via GitHub Actions on every push to `main`.
 
-**Workflow:** `.github/workflows/static.yml`
+**Workflows:** `.github/workflows/static.yml` (Pages deploy) and `.github/workflows/ci.yml` (PR/push verify)
 
 ```yaml
-- Build with Qwik SSG
-- Upload to GitHub Pages
-- Deploy to https://mark-siazon.github.io/acads-Elec3-Portfolio/
+- Node 24, npm ci, npm run build:pages
+- Upload dist/AE3-Portfolio-Cloud-DevOps to GitHub Pages
 ```
 
 ### Manual Deployment
 
 ```bash
-# Build for production
-npm run build
+# Build for GitHub Pages (CI uses this)
+npm run build:pages
 
 # The dist/ folder contains the static site
-# Upload dist/acads-Elec3-Portfolio/ to your hosting
+# Upload dist/AE3-Portfolio-Cloud-DevOps/ to your hosting
 ```
 
 ### Base Path Configuration
@@ -253,7 +254,7 @@ The site is configured for GitHub Pages subdirectory deployment:
 
 **vite.config.ts:**
 ```ts
-base: '/acads-Elec3-Portfolio/'
+base: '/AE3-Portfolio-Cloud-DevOps/'
 ```
 
 All asset paths use `import.meta.env.BASE_URL` for proper resolution.
@@ -263,7 +264,8 @@ All asset paths use `import.meta.env.BASE_URL` for proper resolution.
 | Script | Description |
 |--------|-------------|
 | `npm run dev` | Start development server |
-| `npm run build` | Build for production (SSG) |
+| `npm run build:pages` | Build for GitHub Pages (client + SSG) |
+| `npm run seo:llms` | Regenerate `public/llms.txt` from catalog JSON |
 | `npm run build.client` | Build client only |
 | `npm run build.server` | Build server/SSG only |
 | `npm run preview` | Preview production build |
@@ -292,6 +294,7 @@ This project is for **educational purposes only**.
 ## 🙏 Acknowledgments
 
 - **IV-ACSAD** - Academic Year 2025-2026
+- **Prof. Niño Narido** - ELEC3 Cloud Computing
 - **Qwik Team** - For the amazing framework
 - **Tailwind CSS** - For the utility-first approach
 

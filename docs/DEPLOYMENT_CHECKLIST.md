@@ -148,7 +148,7 @@ Add to GitHub Pages via `_headers` file:
 4. **Verify Files**
    ```bash
    # Check dist folder
-   ls dist/acads-Elec3-Portfolio/
+   ls dist/AE3-Portfolio-Cloud-DevOps/
    # Should include: 404.html, sitemap.xml, robots.txt
    ```
 
@@ -166,13 +166,13 @@ Add to GitHub Pages via `_headers` file:
 ### After GitHub Actions Completes:
 
 1. **Test Live Site**
-   - [ ] https://mark-siazon.github.io/acads-Elec3-Portfolio/
-   - [ ] https://mark-siazon.github.io/acads-Elec3-Portfolio/reflection
-   - [ ] https://mark-siazon.github.io/acads-Elec3-Portfolio/invalid-page (404)
+   - [ ] https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
+   - [ ] https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/reflection
+   - [ ] https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/invalid-page (404)
 
 2. **Test SEO**
-   - [ ] https://mark-siazon.github.io/acads-Elec3-Portfolio/sitemap.xml
-   - [ ] https://mark-siazon.github.io/acads-Elec3-Portfolio/robots.txt
+   - [ ] https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/sitemap.xml
+   - [ ] https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/robots.txt
 
 3. **Run Lighthouse Audit**
    - Open DevTools (F12)
@@ -216,7 +216,7 @@ git push origin main
 ### Expected Result:
 - GitHub Actions builds your site
 - Deploys to GitHub Pages
-- Live at: https://mark-siazon.github.io/acads-Elec3-Portfolio/
+- Live at: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
 - Lighthouse scores: 90-100 on all metrics
 
 ---

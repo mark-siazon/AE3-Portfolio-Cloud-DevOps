@@ -1,0 +1,71 @@
+# ELEC3 Cloud & DevOps Portfolio — Mark Siazon
+
+> IV-ACSAD ELEC3 cloud & DevOps showcase (SY 2025-2026). Hands-on full-stack, AWS, Docker, Kubernetes, and Terraform coursework.
+
+- Site: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
+- Reflections: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/reflection/
+- Primary portfolio: https://www.marksiazon.dev
+- Entity @id: https://www.marksiazon.dev/#mark-siazon
+- Extended index: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/llms-full.txt
+
+## Skills demonstrated
+
+### Full-stack & APIs
+- Ass#1: Spring Boot RESTful Web Services — Java SpringBoot, REST API, MySQL, Postman
+- Lab Activity: Docker Image Deployment — Docker, Node.js, Containerization, Docker Compose
+- This site — Qwik, TypeScript, Tailwind CSS, GitHub Pages CI/CD
+
+### Cloud (AWS)
+- Ass#2: AWS Deployment Guide — AWS, EC2, S3, RDS, Cloud Hosting
+
+### Containers & DevOps
+- Ass#3: Intro to Docker & Containerization — Docker, Containerization, DevOps, Learning Plan
+- Ass#4: Narrative Report - Virtualization vs. Containerization — Research, Virtualization, Docker, Edge Computing
+- Lab Activity: Docker Image Deployment — Docker, Node.js, Containerization, Docker Compose
+
+### Orchestration & IaC
+- Ass#5: Kubernetes Home Lab Activity — Kubernetes, Minikube, MySQL, WordPress, PVC, Secrets
+- Ass#6: Terraform Survivor — Terraform, Game Dev, IaC, GitHub Actions
+
+## Projects
+
+1. Ass#1: Spring Boot RESTful Web Services — User Management REST API with layered architecture, MySQL integration, and Postman testing.
+   PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-1.pdf
+   Tags: Java SpringBoot, REST API, MySQL, Postman
+
+2. Ass#2: AWS Deployment Guide — Guide for website hosting using AWS EC2, S3, and RDS.
+   PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-2.pdf
+   Tags: AWS, EC2, S3, RDS, Cloud Hosting
+
+3. Ass#3: Intro to Docker & Containerization — Two-week learning plan for Docker fundamentals, multi-container apps, and best practices.
+   PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-3.pdf
+   Tags: Docker, Containerization, DevOps, Learning Plan
+
+4. Lab Activity: Docker Image Deployment — Node.js web app containerized with Docker; build, run, and Compose workflows.
+   GitHub: https://github.com/Iron-Mark/Elec3-Docker
+   Tags: Docker, Node.js, Containerization, Docker Compose
+
+5. Ass#4: Narrative Report - Virtualization vs. Containerization — Comparative analysis of VMs and Docker containers in edge computing.
+   PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-4.pdf
+   Tags: Research, Virtualization, Docker, Edge Computing
+
+6. Ass#5: Kubernetes Home Lab Activity — Minikube deployments, services, debugging, and WordPress/MySQL with PVCs and Secrets.
+   PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-5.pdf
+   Tags: Kubernetes, Minikube, MySQL, WordPress, PVC, Secrets
+
+7. Ass#6: Terraform Survivor — Browser survival RPG where Terraform controls difficulty; IaC, GitHub Actions, GitHub Pages.
+   GitHub: https://github.com/mark-siazon/AE3-Terraform_Survivor | Demo: https://mark-siazon.github.io/AE3-Terraform_Survivor/
+   Tags: Terraform, Game Dev, IaC, GitHub Actions
+
+## How this connects to marksiazon.dev
+
+This showcase extends https://www.marksiazon.dev with documented ELEC3 coursework, PDFs, repos, and the Terraform Survivor live demo. marksiazon.dev remains the home base for career narrative, flagship case studies, availability, and contact.
+
+## Reference guide
+
+- Use https://www.marksiazon.dev and https://www.marksiazon.dev/#mark-siazon for bio, contact, and flagship portfolio projects.
+- Use https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/ for ELEC3 assignment titles, skills tags, PDFs, GitHub links, and the Terraform game URL.
+- Skills are documented through named assignments and linked repos.
+- Main portfolio llms: https://www.marksiazon.dev/llms.txt
+
+Last updated: 2025-12-04
