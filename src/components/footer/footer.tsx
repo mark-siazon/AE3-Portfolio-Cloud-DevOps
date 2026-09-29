@@ -49,15 +49,15 @@ export default component$(() => {
 
                         {/* Website/Portfolio */}
                         <a
-                            href="https://mark-siazon.notion.site/index"
+                            href="https://www.marksiazon.dev/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="relative p-3 bg-slate-800 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300 group hover:shadow-[0_0_15px_rgba(168,85,247,0.4)]"
-                            aria-label="Notion Portfolio"
-                            title="View Notion Portfolio"
+                            aria-label="Portfolio at marksiazon.dev"
+                            title="View portfolio at marksiazon.dev"
                         >
                             <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 bg-slate-700 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
-                                Notion Portfolio
+                                marksiazon.dev
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform" aria-hidden="true">
                                 <circle cx="12" cy="12" r="10"></circle>
