@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ass-1-spring-boot",
+    "title": "Ass#1: Spring Boot RESTful Web Services",
+    "description": "User Management REST API with layered architecture, MySQL integration, and Postman testing.",
+    "tags": ["Java SpringBoot", "REST API", "MySQL", "Postman"],
+    "skillThemes": ["Full-stack backend", "REST API design", "Relational data"],
+    "pdf": "files/Project-Ass-1.pdf"
+  },
+  {
+    "id": "ass-2-aws",
+    "title": "Ass#2: AWS Deployment Guide",
+    "description": "Guide for website hosting using AWS EC2, S3, and RDS.",
+    "tags": ["AWS", "EC2", "S3", "RDS", "Cloud Hosting"],
+    "skillThemes": ["Cloud hosting", "AWS core services", "Security groups"],
+    "pdf": "files/Project-Ass-2.pdf"
+  },
+  {
+    "id": "ass-3-docker-plan",
+    "title": "Ass#3: Intro to Docker & Containerization",
+    "description": "Two-week learning plan for Docker fundamentals, multi-container apps, and best practices.",
+    "tags": ["Docker", "Containerization", "DevOps", "Learning Plan"],
+    "skillThemes": ["Containers", "DevOps learning", "Docker Compose"],
+    "pdf": "files/Project-Ass-3.pdf"
+  },
+  {
+    "id": "lab-docker-node",
+    "title": "Lab Activity: Docker Image Deployment",
+    "description": "Node.js web app containerized with Docker; build, run, and Compose workflows.",
+    "tags": ["Docker", "Node.js", "Containerization", "Docker Compose"],
+    "skillThemes": ["Full-stack", "Containerization lab"],
+    "github": "https://github.com/Iron-Mark/Elec3-Docker"
+  },
+  {
+    "id": "ass-4-research",
+    "title": "Ass#4: Narrative Report - Virtualization vs. Containerization",
+    "description": "Comparative analysis of VMs and Docker containers in edge computing.",
+    "tags": ["Research", "Virtualization", "Docker", "Edge Computing"],
+    "skillThemes": ["Cloud theory", "Edge computing"],
+    "pdf": "files/Project-Ass-4.pdf"
+  },
+  {
+    "id": "ass-5-kubernetes",
+    "title": "Ass#5: Kubernetes Home Lab Activity",
+    "description": "Minikube deployments, services, debugging, and WordPress/MySQL with PVCs and Secrets.",
+    "tags": ["Kubernetes", "Minikube", "MySQL", "WordPress", "PVC", "Secrets"],
+    "skillThemes": ["Orchestration", "Stateful workloads", "kubectl"],
+    "pdf": "files/Project-Ass-5.pdf"
+  },
+  {
+    "id": "ass-6-terraform-survivor",
+    "title": "Ass#6: Terraform Survivor",
+    "description": "Browser survival RPG where Terraform controls difficulty; IaC, GitHub Actions, GitHub Pages.",
+    "tags": ["Terraform", "Game Dev", "IaC", "GitHub Actions"],
+    "skillThemes": ["Infrastructure as Code", "CI/CD", "GitHub Pages"],
+    "github": "https://github.com/mark-siazon/AE3-Terraform_Survivor",
+    "demo": "https://mark-siazon.github.io/AE3-Terraform_Survivor/"
+  }
+]

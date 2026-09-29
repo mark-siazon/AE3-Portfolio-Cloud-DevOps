@@ -23,6 +23,13 @@ export const RouterHead = component$(() => {
       <meta name="referrer" content="strict-origin-when-cross-origin" />
 
       <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}logo.svg`} />
+      <link rel="me" href="https://www.marksiazon.dev/" />
+      <link
+        rel="alternate"
+        type="text/plain"
+        title="LLMs"
+        href={`${import.meta.env.BASE_URL}llms.txt`}
+      />
 
       {/* Optimized font loading - preconnect and preload */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />

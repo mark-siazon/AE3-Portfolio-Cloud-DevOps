@@ -23,7 +23,7 @@ export const IntroSection = component$(() => {
                         </div>
 
                         <p class="text-gray-300 leading-relaxed text-lg">
-                            Special thanks to <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 font-bold">Prof. Nino Narido</span>.
+                            Special thanks to <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 font-bold">Prof. Niño Narido</span>.
                         </p>
                         <div class="mt-4 pt-4 border-t border-white/5">
                             <p class="text-gray-400 text-sm italic">

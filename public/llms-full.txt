@@ -1,0 +1,77 @@
+# ELEC3 portfolio — full project briefs
+
+Companion to https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/llms.txt
+Primary portfolio: https://www.marksiazon.dev
+
+---
+
+## Ass#1: Spring Boot RESTful Web Services
+
+Developed a comprehensive User Management REST API using Spring Boot and MySQL.
+The project implements a standard layered architecture (Controller, Service, Repository) to handle CRUD operations for user data.
+
+Key Features:
+- Database configuration with Hibernate.
+- Entity modeling.
+- API testing using Postman.
+
+Tags: Java SpringBoot, REST API, MySQL, Postman
+PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-1.pdf
+
+---
+
+## Ass#2: AWS Deployment Guide
+
+A step-by-step guide for deploying a simple website on AWS, mirroring real-world cloud practices.
+Demonstrates EC2 (t3.micro), S3 static hosting, RDS MySQL, and Security Groups for HTTP/HTTPS/SSH.
+
+Tags: AWS, EC2, S3, RDS, Cloud Hosting
+PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-2.pdf
+
+---
+
+## Ass#3: Intro to Docker & Containerization
+
+Two-week curriculum: Docker foundations, multi-stage builds, Docker Compose, and a milestone full-stack container project.
+
+Tags: Docker, Containerization, DevOps, Learning Plan
+PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-3.pdf
+
+---
+
+## Lab Activity: Docker Image Deployment
+
+Node.js app containerized; Dockerfile, CLI lifecycle, Docker Compose orchestration.
+
+GitHub: https://github.com/Iron-Mark/Elec3-Docker
+Tags: Docker, Node.js, Containerization, Docker Compose
+
+---
+
+## Ass#4: Virtualization vs. Containerization
+
+Research narrative on VMs vs Docker at the edge; efficiency findings for short jobs, long-running services, and ARM edge deployments.
+
+Tags: Research, Virtualization, Docker, Edge Computing
+PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-4.pdf
+
+---
+
+## Ass#5: Kubernetes Home Lab Activity
+
+Minikube: Hello Minikube, kubectl exec debugging, WordPress + MySQL with PVCs and Secrets.
+
+Tags: Kubernetes, Minikube, MySQL, WordPress, PVC, Secrets
+PDF: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/files/Project-Ass-5.pdf
+
+---
+
+## Ass#6: Terraform Survivor
+
+IaC-controlled browser survival game; Terraform generates config.js; GitHub Actions deploys to Pages.
+
+GitHub: https://github.com/mark-siazon/AE3-Terraform_Survivor
+Demo: https://mark-siazon.github.io/AE3-Terraform_Survivor/
+Tags: Terraform, Game Dev, IaC, GitHub Actions
+
+Last updated: 2025-12-04

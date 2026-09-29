@@ -3,6 +3,7 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import { IntroSection } from '~/components/reflection/intro-section';
 import { JourneyMap } from '~/components/reflection/journey-map';
 import { OutroSection } from '~/components/reflection/outro-section';
+import { buildReflectionHead } from '~/seo/head-reflection';
 
 export default component$(() => {
     const containerRef = useSignal<Element>();
@@ -44,12 +45,4 @@ export default component$(() => {
     );
 });
 
-export const head: DocumentHead = {
-    title: 'Reflections - Cloud Portfolio',
-    meta: [
-        {
-            name: 'description',
-            content: 'A reflective journey through Cloud Computing, covering REST APIs, AWS, Docker, Kubernetes, and Terraform.',
-        },
-    ],
-};
+export const head: DocumentHead = buildReflectionHead();

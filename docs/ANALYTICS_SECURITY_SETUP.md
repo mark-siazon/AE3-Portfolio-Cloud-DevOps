@@ -49,7 +49,7 @@
 
 1. **Go to Repository Settings**
    ```
-   https://github.com/mark-siazon/acads-Elec3-Portfolio/settings/secrets/actions
+   https://github.com/mark-siazon/AE3-Portfolio-Cloud-DevOps/settings/secrets/actions
    ```
 
 2. **Add New Secret**
@@ -81,7 +81,7 @@ GitHub Actions will automatically:
 
 1. **Visit Your Site**
    ```
-   https://mark-siazon.github.io/acads-Elec3-Portfolio/
+   https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
    ```
 
 2. **Check Real-Time Reports**
@@ -181,7 +181,7 @@ We've added security headers as **meta tags** in the HTML, which work on all pla
 
 1. **Use Security Headers Checker**
    ```
-   https://securityheaders.com/?q=https://mark-siazon.github.io/acads-Elec3-Portfolio/
+   https://securityheaders.com/?q=https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
    ```
 
 2. **Check in DevTools**
