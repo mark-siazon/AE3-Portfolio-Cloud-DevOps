@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist/acads-Elec3-Portfolio
+          path: ./dist/AE3-Portfolio-Cloud-DevOps
 
   deploy:
     environment:

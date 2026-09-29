@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mark-siazon.github.io/acads-Elec3-Portfolio/sitemap.xml
+Sitemap: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/sitemap.xml

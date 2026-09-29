@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://mark-siazon.github.io/acads-Elec3-Portfolio",
+        origin: "https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps",
       }),
     ],
   };
