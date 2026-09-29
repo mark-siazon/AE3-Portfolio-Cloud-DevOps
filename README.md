@@ -4,6 +4,8 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 
 🔗 **Live Site**: [https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/](https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/)
 
+📎 **Portfolio case study:** [marksiazon.dev/projects/elec3-cloud-portfolio](https://www.marksiazon.dev/projects/elec3-cloud-portfolio)
+
 ## 📋 Table of Contents
 
 - [Features](#features)
