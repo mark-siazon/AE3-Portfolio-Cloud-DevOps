@@ -116,8 +116,8 @@ export const projects = [
     description:
       "A browser-based survival RPG where Terraform controls game difficulty. Features interactive UI, crafting system, and IaC principles.",
     tags: ["Terraform", "Game Dev", "IaC", "GitHub Actions"],
-    github: "https://github.com/mark-siazon/acads-Terraform_Survivor-ELEC3",
-    demo: "https://mark-siazon.github.io/acads-Terraform_Survivor-ELEC3/",
+    github: "https://github.com/mark-siazon/AE3-Terraform_Survivor",
+    demo: "https://mark-siazon.github.io/AE3-Terraform_Survivor/",
     image: `${BASE_URL}card-img/Project-Ass-6.svg`,
     fullDescription: `
         Infrastructure as Code meets Survival RPG. This project demonstrates clean architecture and IaC principles by using Terraform to control game mechanics.
