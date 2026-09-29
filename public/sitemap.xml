@@ -6,7 +6,7 @@
     
     <!-- Home Page -->
     <url>
-        <loc>https://mark-siazon.github.io/acads-Elec3-Portfolio/</loc>
+        <loc>https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/</loc>
         <lastmod>2025-12-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
     
     <!-- Reflections Page -->
     <url>
-        <loc>https://mark-siazon.github.io/acads-Elec3-Portfolio/reflection</loc>
+        <loc>https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/reflection</loc>
         <lastmod>2025-12-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

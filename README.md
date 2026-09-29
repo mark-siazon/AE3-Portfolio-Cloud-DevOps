@@ -2,7 +2,7 @@
 
 A modern, high-performance portfolio website showcasing cloud computing and DevOps projects built with **Qwik**, **TypeScript**, and **Tailwind CSS**. Deployed on **GitHub Pages** with full static site generation (SSG).
 
-🔗 **Live Site**: [https://mark-siazon.github.io/acads-Elec3-Portfolio/](https://mark-siazon.github.io/acads-Elec3-Portfolio/)
+🔗 **Live Site**: [https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/](https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/)
 
 ## 📋 Table of Contents
 

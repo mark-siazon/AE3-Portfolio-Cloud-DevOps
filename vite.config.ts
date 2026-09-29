@@ -21,7 +21,7 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
 
 export default defineConfig(({ command, mode }): UserConfig => {
   return {
-    base: '/acads-Elec3-Portfolio/',
+    base: '/AE3-Portfolio-Cloud-DevOps/',
     plugins: [
       qwikCity(),
       qwikVite(),
