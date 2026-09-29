@@ -2,11 +2,14 @@
   "name": "my-qwik-empty-starter",
   "description": "Blank project with routing included",
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
   "type": "module",
+  "overrides": {
+    "sharp": "0.35.5"
+  },
   "scripts": {
     "build": "npm run build.client && npm run build.server && npm run lint && npm run build.types",
     "build.client": "vite build",
@@ -32,8 +35,8 @@
     "@eslint/js": "latest",
     "@qwik-ui/headless": "^0.7.4",
     "@tailwindcss/vite": "^4.3.3",
-    "@types/node": "^22.19.0",
-    "eslint": "9.32.0",
+    "@types/node": "26.6.3",
+    "eslint": "10.11.0",
     "eslint-plugin-qwik": "^1.20.1",
     "globals": "16.4.0",
     "prettier": "^3.9.9",

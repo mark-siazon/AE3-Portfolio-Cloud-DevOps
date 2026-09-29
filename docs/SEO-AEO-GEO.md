@@ -46,4 +46,4 @@ Do not duplicate marksiazon.dev corpus. Link out: https://www.marksiazon.dev/llm
 
 ## npm audit
 
-Vite is pinned to 7.3.x+ for advisory fixes. Direct `sharp` is 0.35.5+; `package.json` `overrides` force the same for transitive `vite-imagetools` (Qwik City). Re-run `npm audit` after dependency changes. Any remaining items are upstream Qwik/vite-imagetools until they bump bundled sharp.
+Vite is pinned to 7.3.x+. Direct `sharp` is **0.35.5**; `package.json` **`overrides`** forces the same for transitive `vite-imagetools` (Qwik City). Re-run `npm audit` after dependency changes.
