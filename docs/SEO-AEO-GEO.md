@@ -4,13 +4,13 @@ This site uses **head-only** and **`public/`** artifacts to support search, answ
 
 ## What was added
 
-| Artifact | URL (after deploy) |
-|----------|-------------------|
-| llms.txt | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/llms.txt |
+| Artifact      | URL (after deploy)                                                     |
+| ------------- | ---------------------------------------------------------------------- |
+| llms.txt      | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/llms.txt      |
 | llms-full.txt | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/llms-full.txt |
-| humans.txt | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/humans.txt |
-| JSON-LD | View source on `/` and `/reflection/` |
-| sitemap | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/sitemap.xml |
+| humans.txt    | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/humans.txt    |
+| JSON-LD       | View source on `/` and `/reflection/`                                  |
+| sitemap       | https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/sitemap.xml   |
 
 Source modules: `src/seo/site.ts`, `src/seo/jsonld.ts`, `src/seo/projects-catalog.json`, route heads in `src/seo/head-home.ts` and `head-reflection.ts`.
 
@@ -22,12 +22,12 @@ npm run seo:llms
 
 ## Skill-to-assignment map
 
-| Theme | Assignments |
-|-------|-------------|
-| Full-stack & APIs | Ass#1 Spring Boot REST; Docker Node lab; Qwik portfolio (this repo) |
-| Cloud (AWS) | Ass#2 EC2, S3, RDS guide |
-| Containers & DevOps | Ass#3 Docker plan; Ass#4 research; Docker lab |
-| Orchestration & IaC | Ass#5 Kubernetes/Minikube; Ass#6 Terraform Survivor |
+| Theme               | Assignments                                                         |
+| ------------------- | ------------------------------------------------------------------- |
+| Full-stack & APIs   | Ass#1 Spring Boot REST; Docker Node lab; Qwik portfolio (this repo) |
+| Cloud (AWS)         | Ass#2 EC2, S3, RDS guide                                            |
+| Containers & DevOps | Ass#3 Docker plan; Ass#4 research; Docker lab                       |
+| Orchestration & IaC | Ass#5 Kubernetes/Minikube; Ass#6 Terraform Survivor                 |
 
 ## Voice guide
 

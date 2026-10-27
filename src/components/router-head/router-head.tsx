@@ -22,7 +22,11 @@ export const RouterHead = component$(() => {
       <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
       <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-      <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}logo.svg`} />
+      <link
+        rel="icon"
+        type="image/svg+xml"
+        href={`${import.meta.env.BASE_URL}logo.svg`}
+      />
       <link rel="me" href="https://www.marksiazon.dev/" />
       <link
         rel="alternate"
@@ -33,7 +37,11 @@ export const RouterHead = component$(() => {
 
       {/* Optimized font loading - preconnect and preload */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
       <link
         rel="preload"
         as="style"

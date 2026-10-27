@@ -3,12 +3,14 @@
 ## ✅ What Was Added
 
 ### 1. **Google Analytics 4** 📈
+
 - Automatic pageview tracking
 - Event tracking ready
 - Privacy-focused implementation
 - Conditional loading (only if ID is set)
 
 ### 2. **Security Headers** 🔒
+
 - X-Frame-Options (prevent clickjacking)
 - X-Content-Type-Options (prevent MIME sniffing)
 - X-XSS-Protection (XSS protection)
@@ -48,6 +50,7 @@
 ### Step 2: Add to GitHub Secrets
 
 1. **Go to Repository Settings**
+
    ```
    https://github.com/mark-siazon/AE3-Portfolio-Cloud-DevOps/settings/secrets/actions
    ```
@@ -69,6 +72,7 @@ git push origin main
 ```
 
 GitHub Actions will automatically:
+
 - Read the secret
 - Inject it during build
 - Deploy with analytics enabled
@@ -80,6 +84,7 @@ GitHub Actions will automatically:
 ### After Deployment:
 
 1. **Visit Your Site**
+
    ```
    https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
    ```
@@ -100,6 +105,7 @@ GitHub Actions will automatically:
 ## 📊 What Gets Tracked
 
 ### Automatic Tracking:
+
 - ✅ **Page Views** - Every page visit
 - ✅ **User Sessions** - Unique visitors
 - ✅ **Traffic Sources** - Where users come from
@@ -108,18 +114,21 @@ GitHub Actions will automatically:
 - ✅ **Browser** - Chrome, Firefox, Safari, etc.
 
 ### Custom Events (Optional):
+
 You can add custom tracking for:
+
 - Project modal opens
 - PDF downloads
 - Button clicks
 - External link clicks
 
 **Example:**
+
 ```tsx
 // Track project modal open
-gtag('event', 'view_project', {
-  project_name: 'Spring Boot API',
-  project_type: 'backend'
+gtag("event", "view_project", {
+  project_name: "Spring Boot API",
+  project_type: "backend",
 });
 ```
 
@@ -130,27 +139,33 @@ gtag('event', 'view_project', {
 ### What Each Header Does:
 
 **X-Frame-Options: DENY**
+
 - Prevents your site from being embedded in iframes
 - Protects against clickjacking attacks
 
 **X-Content-Type-Options: nosniff**
+
 - Prevents browsers from MIME-sniffing
 - Stops execution of malicious files
 
 **X-XSS-Protection: 1; mode=block**
+
 - Enables browser's XSS filter
 - Blocks page if XSS attack detected
 
 **Referrer-Policy: strict-origin-when-cross-origin**
+
 - Controls referrer information sent
 - Privacy-focused policy
 
 **Content-Security-Policy**
+
 - Restricts resource loading
 - Only allows trusted sources
 - Prevents XSS and injection attacks
 
 **Permissions-Policy**
+
 - Disables unnecessary browser features
 - Blocks geolocation, camera, microphone, etc.
 
@@ -163,10 +178,12 @@ gtag('event', 'view_project', {
 GitHub Pages has **limited support** for custom headers via `_headers` file. Some headers may not work.
 
 **What Works:**
+
 - ✅ Meta tags in HTML (implemented)
 - ✅ CSP via meta tag (if needed)
 
 **What May Not Work:**
+
 - ⚠️ Custom HTTP headers via `_headers`
 - ⚠️ Cache-Control headers
 
@@ -180,6 +197,7 @@ We've added security headers as **meta tags** in the HTML, which work on all pla
 ### After Deployment:
 
 1. **Use Security Headers Checker**
+
    ```
    https://securityheaders.com/?q=https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/
    ```
@@ -212,12 +230,14 @@ We've added security headers as **meta tags** in the HTML, which work on all pla
 ### GDPR/Privacy Considerations:
 
 **Current Setup:**
+
 - ✅ No cookies set without consent
 - ✅ IP anonymization (GA4 default)
 - ✅ No personal data collected
 - ✅ Privacy-focused analytics
 
 **Optional Enhancements:**
+
 - [ ] Cookie consent banner
 - [ ] Privacy policy page
 - [ ] Analytics opt-out option
@@ -227,17 +247,20 @@ We've added security headers as **meta tags** in the HTML, which work on all pla
 ## 🚀 Next Steps
 
 ### 1. Set Up GA (Required)
+
 ```bash
 # Add secret to GitHub
 GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
 
 ### 2. Deploy
+
 ```bash
 git push origin main
 ```
 
 ### 3. Verify
+
 - Check GA Real-Time reports
 - Test security headers
 - Monitor analytics data
@@ -256,8 +279,9 @@ git push origin main
 6. **Traffic Sources** - Where users come from
 
 ### Access Reports:
+
 ```
-Google Analytics → Reports → 
+Google Analytics → Reports →
   - Realtime (live users)
   - Acquisition (traffic sources)
   - Engagement (page views)

@@ -3,6 +3,7 @@
 ## ✅ **Core Features - COMPLETE**
 
 ### Content & Pages
+
 - [x] Home page with hero section
 - [x] Project gallery with 7 projects
 - [x] Reflections page
@@ -11,6 +12,7 @@
 - [x] Mobile-friendly PDF handling
 
 ### SEO & Meta
+
 - [x] **Sitemap.xml** ✅ (Just added!)
 - [x] **robots.txt** with sitemap reference
 - [x] Meta descriptions on all pages
@@ -21,6 +23,7 @@
 - [x] Alt text on images
 
 ### Performance
+
 - [x] Image optimization (850px width, ~61 KB saved)
 - [x] Lazy loading images
 - [x] Async font loading
@@ -29,6 +32,7 @@
 - [x] Static site generation (SSG)
 
 ### Accessibility
+
 - [x] Keyboard navigation (Tab, ESC, Arrows)
 - [x] Focus-visible rings
 - [x] ARIA labels
@@ -37,6 +41,7 @@
 - [x] WCAG 2.1 AA compliant
 
 ### Mobile & Responsive
+
 - [x] Mobile hamburger menu
 - [x] Responsive grid (1→2→3→4 columns)
 - [x] Stacked buttons on mobile
@@ -44,6 +49,7 @@
 - [x] Mobile PDF button (no auto-download)
 
 ### Design & UX
+
 - [x] Dark mode forced (no color changes)
 - [x] Glassmorphism effects
 - [x] Gradient text
@@ -53,6 +59,7 @@
 - [x] Error handling (PDF viewer)
 
 ### Browser Compatibility
+
 - [x] Chrome 90+ ✅
 - [x] Firefox 88+ ✅
 - [x] Safari 14+ ✅
@@ -65,6 +72,7 @@
 ## 📦 **Deployment Ready**
 
 ### GitHub Pages
+
 - [x] GitHub Actions workflow configured
 - [x] Static adapter configured
 - [x] Base URL set correctly
@@ -72,6 +80,7 @@
 - [x] Build succeeds without errors
 
 ### Files in `public/`
+
 - [x] 404.html
 - [x] sitemap.xml ✅
 - [x] robots.txt
@@ -86,12 +95,14 @@
 ## 🔧 **Optional Enhancements**
 
 ### Analytics (Optional)
+
 - [ ] Google Analytics
 - [ ] Plausible Analytics
 - [ ] Vercel Analytics
 - [ ] Umami
 
 **How to add:**
+
 ```tsx
 // In router-head.tsx
 {/* Google Analytics */}
@@ -105,7 +116,9 @@
 ```
 
 ### Security Headers (Optional)
+
 Add to GitHub Pages via `_headers` file:
+
 ```
 /*
   X-Frame-Options: DENY
@@ -115,6 +128,7 @@ Add to GitHub Pages via `_headers` file:
 ```
 
 ### Performance Monitoring (Optional)
+
 - [ ] Lighthouse CI
 - [ ] Web Vitals tracking
 - [ ] Error tracking (Sentry)
@@ -126,12 +140,14 @@ Add to GitHub Pages via `_headers` file:
 ### Before Pushing to Main:
 
 1. **Test Build Locally**
+
    ```bash
    npm run build
    # Check for errors
    ```
 
 2. **Test 404 Page**
+
    ```bash
    npm run preview
    # Visit: http://localhost:4173/invalid-page
@@ -146,6 +162,7 @@ Add to GitHub Pages via `_headers` file:
    - [ ] GitHub links work
 
 4. **Verify Files**
+
    ```bash
    # Check dist folder
    ls dist/AE3-Portfolio-Cloud-DevOps/
@@ -197,6 +214,7 @@ Add to GitHub Pages via `_headers` file:
 ## 🎉 **You're Ready to Deploy!**
 
 ### What You Have:
+
 ✅ **Professional portfolio** with 7 cloud projects
 ✅ **SEO optimized** (sitemap, meta tags, Open Graph)
 ✅ **Performance optimized** (lazy loading, image optimization)
@@ -207,6 +225,7 @@ Add to GitHub Pages via `_headers` file:
 ✅ **Production ready** (builds successfully)
 
 ### Deploy Command:
+
 ```bash
 git add .
 git commit -m "🚀 Production ready: Complete portfolio with all optimizations"
@@ -214,6 +233,7 @@ git push origin main
 ```
 
 ### Expected Result:
+
 - GitHub Actions builds your site
 - Deploys to GitHub Pages
 - Live at: https://mark-siazon.github.io/AE3-Portfolio-Cloud-DevOps/

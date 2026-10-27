@@ -21,6 +21,7 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 ## ✨ Features
 
 ### 🎨 UI/UX
+
 - **Premium Design** - Glassmorphism, gradients, and micro-animations
 - **Responsive Layout** - Mobile-first design with adaptive breakpoints
 - **Dark Theme** - Sleek dark mode with cyan/blue accents
@@ -29,12 +30,14 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 - **Mobile-Optimized PDF Viewer** - Button prompt on mobile, embedded viewer on desktop
 
 ### ⌨️ Keyboard Navigation
+
 - **ESC** - Close modal
 - **← →** - Navigate between projects
 - **Tab** - Focus navigation with visible rings
 - **Keyboard Hint Tooltip** - Auto-appears after 2 seconds (desktop only)
 
 ### 🚀 Performance
+
 - **Lazy Loading** - Images load only when visible
 - **Optimized Images** - 850px width for 2x retina displays (~61 KB savings)
 - **Font Optimization** - Preconnect hints for faster loading
@@ -43,6 +46,7 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 - **Optimized Backdrop** - Removed blur for smooth mouse movement
 
 ### 📱 Mobile Features
+
 - **Functional Hamburger Menu** - Smooth slide-down navigation
 - **Stacked Buttons** - Vertical layout on small screens
 - **Responsive Grid** - 1 column (mobile) → 2 (tablet) → 3-4 (desktop)
@@ -50,6 +54,7 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 - **Touch-Friendly** - Larger tap targets and spacing
 
 ### 🎯 SEO & Meta
+
 - **Open Graph Tags** - Social media preview cards
 - **Twitter Cards** - Optimized sharing on Twitter/X
 - **JSON-LD** - WebSite, CollectionPage, FAQPage (see `src/seo/`)
@@ -60,6 +65,7 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 - **Copyright Protection** - Meta tags and footer notice
 
 ### ♿ Accessibility
+
 - **WCAG 2.1 AA Compliant** - Visible focus indicators
 - **Keyboard Navigation** - Full keyboard support
 - **ARIA Labels** - Semantic HTML throughout
@@ -69,17 +75,20 @@ A modern, high-performance portfolio website showcasing cloud computing and DevO
 ## 🛠️ Tech Stack
 
 ### Core
+
 - **[Qwik](https://qwik.builder.io/)** - Resumable framework for instant-loading apps
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Vite](https://vitejs.dev/)** - Next-generation build tool
 
 ### Deployment
+
 - **GitHub Pages** - Static hosting
 - **GitHub Actions** - Automated CI/CD pipeline
 - **Static Adapter** - SSG for optimal performance
 
 ### Tools
+
 - **Sharp** - Image optimization
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
@@ -129,18 +138,21 @@ AE3-Portfolio-Cloud-DevOps/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - **Node.js** 24+ and npm (matches GitHub Actions)
 - Git
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/mark-siazon/AE3-Portfolio-Cloud-DevOps.git
    cd AE3-Portfolio-Cloud-DevOps
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
@@ -176,6 +188,7 @@ npm run fmt
 ## ⚡ Performance Optimizations
 
 ### Image Optimization
+
 All project card images are optimized to 850px width (2x for retina):
 
 ```bash
@@ -183,25 +196,24 @@ npm run optimize:images
 ```
 
 **Results:**
+
 - Project-Ass-1: 16.4 KB → 11.2 KB (31% smaller)
 - Project-Ass-2: 24.1 KB → 15.6 KB (35% smaller)
 - Project-Ass-4: 46.9 KB → 12.4 KB (74% smaller!)
 - **Total savings: ~61 KB**
 
 ### Lazy Loading
+
 Images use `loading="lazy"` and `decoding="async"` for optimal performance:
+
 ```tsx
-<img 
-  src={image} 
-  loading="lazy" 
-  decoding="async" 
-  width="850" 
-  height="478"
-/>
+<img src={image} loading="lazy" decoding="async" width="850" height="478" />
 ```
 
 ### Font Optimization
+
 Google Fonts are preconnected and loaded asynchronously:
+
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -210,20 +222,24 @@ Google Fonts are preconnected and loaded asynchronously:
 ## ♿ Accessibility
 
 ### Keyboard Navigation
+
 - **Tab** - Navigate through interactive elements
 - **Enter/Space** - Activate buttons/links
 - **ESC** - Close modal
 - **Arrow Keys** - Navigate projects in modal
 
 ### Focus Indicators
+
 ```tsx
-focus-visible:ring-2 
-focus-visible:ring-cyan-400 
+focus-visible:ring-2
+focus-visible:ring-cyan-400
 focus-visible:ring-offset-2
 ```
 
 ### ARIA Labels
+
 All interactive elements have proper `aria-label` attributes:
+
 ```tsx
 <button aria-label="Toggle menu">...</button>
 <section aria-label="Project Gallery">...</section>
@@ -232,6 +248,7 @@ All interactive elements have proper `aria-label` attributes:
 ## 🚢 Deployment
 
 ### GitHub Pages
+
 The site is automatically deployed via GitHub Actions on every push to `main`.
 
 **Workflows:** `.github/workflows/static.yml` (Pages deploy) and `.github/workflows/ci.yml` (PR/push verify)
@@ -252,28 +269,30 @@ npm run build:pages
 ```
 
 ### Base Path Configuration
+
 The site is configured for GitHub Pages subdirectory deployment:
 
 **vite.config.ts:**
+
 ```ts
-base: '/AE3-Portfolio-Cloud-DevOps/'
+base: "/AE3-Portfolio-Cloud-DevOps/";
 ```
 
 All asset paths use `import.meta.env.BASE_URL` for proper resolution.
 
 ## � Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build:pages` | Build for GitHub Pages (client + SSG) |
-| `npm run seo:llms` | Regenerate `public/llms.txt` from catalog JSON |
-| `npm run build.client` | Build client only |
-| `npm run build.server` | Build server/SSG only |
-| `npm run preview` | Preview production build |
-| `npm run optimize:images` | Optimize card images with Sharp |
-| `npm run lint` | Lint TypeScript files |
-| `npm run fmt` | Format code with Prettier |
+| Script                    | Description                                    |
+| ------------------------- | ---------------------------------------------- |
+| `npm run dev`             | Start development server                       |
+| `npm run build:pages`     | Build for GitHub Pages (client + SSG)          |
+| `npm run seo:llms`        | Regenerate `public/llms.txt` from catalog JSON |
+| `npm run build.client`    | Build client only                              |
+| `npm run build.server`    | Build server/SSG only                          |
+| `npm run preview`         | Preview production build                       |
+| `npm run optimize:images` | Optimize card images with Sharp                |
+| `npm run lint`            | Lint TypeScript files                          |
+| `npm run fmt`             | Format code with Prettier                      |
 
 ## 🎓 Projects Showcased
 
