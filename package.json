@@ -8,7 +8,8 @@
   "private": true,
   "type": "module",
   "overrides": {
-    "sharp": "0.35.5"
+    "sharp": "0.35.5",
+    "minimatch": "^11.0.1"
   },
   "scripts": {
     "build": "npm run build.client && npm run build.server && npm run lint && npm run build.types",
